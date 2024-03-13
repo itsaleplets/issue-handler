@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+  <title>CRUD</title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <label>ID</label>
+  <input id="issueId" placeholder="Issue ID" />
+  <label>Title</label>
+  <input id="issueTitle" placeholder="Issue Title" />
+  <label>Description</label>
+  <input id="issueDescription" placeholder="Issue Description" />
+
+  <button id="btnGet" onclick="listIssues()" > List All </button>
+  <button id="btnGetById" onclick="listIssueByID()"> Get By ID </button>
+  <button id="btnPost" onclick="createNewIssue()"> Create</button>
+  <button id="btnPut" onclick="updateAnIssue()"> Update </button>
+  <button id="btnDelete" onclick="deleteAnIssue()"> Delete </button>
+  <pre id="json-data"></pre>
+</body>
+
+</html>
