@@ -1,11 +1,10 @@
 import './App.css';
 import { getIssues } from './services/api';
-import IssuesList from './getAllIssues'
+import IssuesList from './components/getAllIssues'
 
 function App() {
   return (
     <div className="App">
-      oi
       <IssuesList/> 
     </div>
   );
